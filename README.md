@@ -52,14 +52,7 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    for i, user_id in enumerate(user_ids):
        print(f"Top {top_k} recommendations for user {user_id}: {user_recommendations[i]}")
     ```
-    >**Top 5 recommendations for user 123:**
-    >['Organic Unsweetened Almond Milk', 'Hass Avocados', 'Soy Sauce', 'Organic Spring Mix', 'Organic Tortilla Chips']
-    >
-    >**Top 5 recommendations for user 3000000:**
-    >['Banana', 'Bag of Organic Bananas', 'Organic Strawberries', 'Organic Baby Spinach', 'Organic Hass Avocado']
-    >
-    >**Top 5 recommendations for user 789:**
-    >['Cheez-It Baked Snack Crackers', 'French Vanilla Creamer', 'Organic Half & Half', 'Chunky Peanut Butter', 'Balsamic Vinegar']
+    ![](https://github.com/VKe-13/SmartRecs/blob/ee197cbe3b5137d1cbc2cd3d8b5348c3460e543e/top_k_multiple.png)
     
    
 11. If you have new transaction or new products data, you can update data by calling the update(new_transactions, new_products) method. After updating, retrain the model by calling the train_model() method again.
