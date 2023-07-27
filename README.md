@@ -42,11 +42,10 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    top_k = 5
    user_recommendations = recommender.get_top_k_recommendations(user_id, top_k)
    print(f"Top {top_k} recommendations for user {user_id}: {user_recommendations}")
-
-   Output:
-   **Top 5 recommendations for user 123:**
-   ['Organic Unsweetened Almond Milk', 'Hass Avocados', 'Soy Sauce', 'Organic Spring Mix', 'Organic Tortilla Chips']
    ```
+   **Output:**
+   Top 5 recommendations for user 123:
+   ['Organic Unsweetened Almond Milk', 'Hass Avocados', 'Soy Sauce', 'Organic Spring Mix', 'Organic Tortilla Chips']
    
 9. Use the get_top_k_recommendations_for_users(user_ids, top_k) method to get recommendations for multiple users, passing a list of user IDs and the number of items to recommend.
     ```
