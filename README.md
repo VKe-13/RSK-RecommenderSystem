@@ -36,7 +36,7 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    recommender.train_model()
    ```
    
-7. Use the get_top_k_recommendations(user, top_k) method to get recommendations for a single user, specifying the user ID and the number of items to recommend.
+6. Use the get_top_k_recommendations(user, top_k) method to get recommendations for a single user, specifying the user ID and the number of items to recommend.
    ```
    user_id = 123
    top_k = 5
