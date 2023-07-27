@@ -52,7 +52,7 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    for i, user_id in enumerate(user_ids):
        print(f"Top {top_k} recommendations for user {user_id}: {user_recommendations[i]}")
     ```
-    ![](https://github.com/VKe-13/SmartRecs/blob/ee197cbe3b5137d1cbc2cd3d8b5348c3460e543e/top_k_multiple.png)
+    ![](https://github.com/VKe-13/SmartRecs/blob/0f02f499effcdd0670b20a7fe506c99f495cb8d0/top_k_multiple.png)
     
    
 11. If you have new transactions or new products, you can update data by calling the update(new_transactions, new_products) method. After updating, retrain the model by calling the train_model() method again.
