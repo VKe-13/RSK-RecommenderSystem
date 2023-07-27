@@ -1,4 +1,4 @@
-# RSK-RecommenderSystem
+# RecommenderSystem "SmartRecs"
 
 
 ## Table of Contents
