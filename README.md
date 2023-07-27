@@ -43,7 +43,7 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    user_recommendations = recommender.get_top_k_recommendations(user_id, top_k)
    print(f"Top {top_k} recommendations for user {user_id}: {user_recommendations}")
    ```
-   !(https://github.com/VKe-13/SmartRecs/blob/5eb47b1b2ae59d5eac1cf92492d3762e9dd64fda/top_k_one.png)
+   ![](https://github.com/VKe-13/SmartRecs/blob/5eb47b1b2ae59d5eac1cf92492d3762e9dd64fda/top_k_one.png)
    
 9. Use the get_top_k_recommendations_for_users(user_ids, top_k) method to get recommendations for multiple users, passing a list of user IDs and the number of items to recommend.
     ```
