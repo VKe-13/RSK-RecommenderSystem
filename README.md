@@ -47,7 +47,7 @@ https://www.kaggle.com/competitions/skillbox-recommender-system/data)https://www
    
 9. Use the get_top_k_recommendations_for_users(user_ids, top_k) method to get recommendations for multiple users, passing a list of user IDs and the number of items to recommend.
     ```
-   user_ids = [123, 3000000, 789]
+   user_ids = [125, 3000000, 789]
    user_recommendations = recommender.get_top_k_recommendations_for_users(user_ids, top_k)
    for i, user_id in enumerate(user_ids):
        print(f"Top {top_k} recommendations for user {user_id}: {user_recommendations[i]}")
